@@ -1,52 +1,46 @@
 <!DOCTYPE html>
-
-<h1>Record Log Form</h1>
-<div id="record-collection-form"></div>
-
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
     <title>Record Collection App</title>
     <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+    <script src="js/app.js"></script>
   </head>
   <body>
     <form id="new-item-form">
       <div id="form-wrapper">
 
         <div class="form-item">
-          <label for="album-name" class="primary">Album Name:</label>
-          <input type="text" id="album-name" required/>
+          <label for="album-name" class="primary">Name:</label>
+          <input type="text" id="name" required/>
         </div>
 
         <div class="form-item">
           <label for="artist" class="primary">Artist:</label>
-          <input type="text" id="author" required/>
+          <input type="text" id="artist" required/>
         </div>
-
-        <label for="artwork" class="primary">Album Artwork:</label>
+<!-- 
+        <label for="artwork" class="primary">Artwork:</label>
         <form action="/action_page.php">
-        <input type="file" id="album-artwork" name="pic" accept="image/*">
-        </form>
+        <input type="file" id="artwork" name="pic" accept="image/*">
+        </form> -->
 
-        <div class="form-item">
-          <label for="value" class="primary">Value £:</label>
-          <input type="text" id="value" required/>
-        </div>
+        <!-- <div class="form-item"> -->
+          <!-- <label for="value" class="primary">Value £:</label>
+          <input type="text" id="value" required/> -->
+        <!-- </div> -->
 
-        <form>
+        <!-- <form>
         <label for="condition" id ="condition" class="primary">Condition:</label>
         <br>
         <input type="radio" name="condition" value="mint">Mint<br>
         <input type="radio" name="condition" value="good">Good<br>
         <input type="radio" name="condition" value="poor">Poor<br>
-        </form>
-
+        </form> -->
         </div>
-
       <input type="submit" value="save record"/>
     </form>
-
-    <h1>Record Collection</h1>
-    <div id="record-collection"></div>
+    <h1>Record Log Form</h1>
+    <div id="record-collection-form"></div>
   </body>
 </html>
